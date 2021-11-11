@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Eléctrica - EPE</title>
+    <title>Calculadora Eléctrica | EMPRESA PROVINCIAL DE LA PROVINCIA DE SANTA FÉ</title>
     <link rel="stylesheet" href="master.css">
     <script src="index.js" defer></script>
 </head>
 <body>
     <div class="container">
+        <nav class="navegation">
+            <figure class="nav-logo">
+                <img src="./img/logo-epe-empresa.png" alt="Logo EPE">
+            </figure>
+        </nav>
         <form action="" class="form">
             <div class="form-group">
-                <label for="usertype">Seleccione según su tipo de usuario</label>
+                <label for="usertype">Tipo de usuario</label>
                 <select name="usertype" id="usertype">
                     <option id="residential" value="residential">Residencial</option>
                     <option id="industrial" value="industrial">Industrial</option>
@@ -28,7 +33,7 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="kilowatts">Cantidad de Kilowatts/Hora del Mes</label>
+                <label for="kilowatts">kWh Mensual</label>
                 <input type="number" name="kilowatts" id="kilowatts">
             </div>
             <input type="button" value="Calcular" id="button">
