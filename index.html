@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Eléctrica - EPE</title>
+    <link rel="stylesheet" href="master.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form">
+            <div class="form-group">
+                <label for="usertype">¿Qué tipo de usuario es usted?</label>
+                <select name="usertype" id="usertype">
+                    <option id="residential" value="residential">Residencial</option>
+                    <option id="industrial" value="industrial">Industrial</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Seleccion su distrito</label>
+                <select name="address" id="address">
+                    <option value="north">Distrito Norte</option>
+                    <option value="south">Distrito Sur</option>
+                    <option value="east">Distrito Este</option>
+                    <option value="west">Distrito Oeste</option>
+                </select>
+            </div>
+            <input type="number" name="kilowatts" id="kilowatts">
+            <input type="button" value="Calcular" id="button">
+        </form>
+    </div>
+</body>
+</html>
