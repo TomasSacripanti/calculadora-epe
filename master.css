@@ -30,10 +30,37 @@ body {
 .navegation {
     width: 100%;
     height: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navegation ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 90%;
+}
+
+.navegation ul li {
+    padding: 0px 10px;
+    text-align: center;
+    flex-basis: 12.85%;
+    align-self: center;
+
+}
+
+.navegation ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navegation ul li :hover {
+    color: lightgrey
 }
 
 .nav-logo {
-    width: 15%;
+    width: 10%;
 }
 
 .nav-logo > img {
