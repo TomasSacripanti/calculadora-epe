@@ -1,53 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Eléctrica | EMPRESA PROVINCIAL DE LA PROVINCIA DE SANTA FÉ</title>
-    <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="responsive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Calculadora Eléctrica | EMPRESA PROVINCIAL DE LA PROVINCIA DE SANTA FÉ
+    </title>
+    <link rel="stylesheet" href="master.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <script src="index.js" defer></script>
-</head>
-<body>
+    <script src="https://kit.fontawesome.com/eee8ba6485.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <div class="container">
-        <nav class="navegation">
-            <figure class="nav-logo">
-                <a href="https://www.epe.santafe.gov.ar/institucional/"><img src="./img/logo-epe-blanco-nuevo.png" alt="Logo EPE"></a>
-            </figure>
-            <ul>
-                <li><a href="https://www.epe.santafe.gov.ar/institucional/quienes-somos">Quienes somos</a></li>
-                <li><a href="https://www.epe.santafe.gov.ar/institucional/index.php?id=31">Usuarios</a></li>
-                <li><a href="https://www.epe.santafe.gov.ar/institucional/index.php?id=43">Grandes Usuarios</a></li>
-                <li><a href="https://www.epe.santafe.gov.ar/institucional/index.php?id=394">Preguntas</a></li>
-                <li><a href="https://www.epe.santafe.gov.ar/institucional/index.php?id=53">Información técnica</a></li>
-                <li><a href="https://www.santafe.gov.ar/index.php/web/content/view/full/93822">Noticias</a></li>
-                <li><a href="https://epe.santafe.gov.ar/extranet">Acceso</a></li>
-            </ul>
-        </nav>
-        <form action="" class="form">
-            <div class="form-group">
-                <label for="usertype">Tipo de usuario</label>
-                <select name="usertype" id="usertype">
-                    <option id="residential" value="residential">Residencial</option>
-                    <option id="industrial" value="industrial">Industrial</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="address">Seleccione su distrito</label>
-                <select name="address" id="address">
-                    <option value="north">Distrito Norte</option>
-                    <option value="south">Distrito Sur</option>
-                    <option value="center">Distrito Centro</option>
-                    <option value="west">Distrito Oeste</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="kilowatts">kWh Mensual</label>
-                <input type="number" name="kilowatts" id="kilowatts">
-            </div>
-            <input type="button" value="Calcular" id="button">
-        </form>
+      <nav class="navegation">
+        <figure class="nav-logo">
+            <a href="https://www.epe.santafe.gov.ar/institucional/"
+              ><img src="./img/logo-epe-blanco-nuevo.png" alt="Logo EPE"
+            /></a>
+        </figure>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li>
+            <a href="https://www.epe.santafe.gov.ar/institucional/quienes-somos"
+              >Quienes somos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.epe.santafe.gov.ar/institucional/index.php?id=31"
+              >Usuarios</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.epe.santafe.gov.ar/institucional/index.php?id=43"
+              >Grandes Usuarios</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.epe.santafe.gov.ar/institucional/index.php?id=394"
+              >Preguntas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.epe.santafe.gov.ar/institucional/index.php?id=53"
+              >Información técnica</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.santafe.gov.ar/index.php/web/content/view/full/93822"
+              >Noticias</a
+            >
+          </li>
+          <li><a href="https://epe.santafe.gov.ar/extranet">Acceso</a></li>
+        </ul>
+      </nav>
+      <form action="" class="form">
+        <div class="form-group">
+          <label for="usertype">Tipo de usuario</label>
+          <select name="usertype" id="usertype">
+            <option id="residential" value="residential">Residencial</option>
+            <option id="industrial" value="industrial">Industrial</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="address">Seleccione su distrito</label>
+          <select name="address" id="address">
+            <option value="north">Distrito Norte</option>
+            <option value="south">Distrito Sur</option>
+            <option value="center">Distrito Centro</option>
+            <option value="west">Distrito Oeste</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="kilowatts">kWh Mensual</label>
+          <input type="number" name="kilowatts" id="kilowatts" />
+        </div>
+        <input type="button" value="Calcular" id="button" />
+      </form>
     </div>
-</body>
+  </body>
 </html>
