@@ -32,13 +32,14 @@ body {
     height: 120px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 255px;
 }
 
 .navegation ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    width: 90%;
 }
 
 .navegation ul li {
@@ -60,7 +61,8 @@ body {
 }
 
 .nav-logo {
-    width: 10%;
+   /* width: 10%; */
+
 }
 
 .nav-logo > img {
