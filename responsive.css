@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 1240px) {
   .navegation {
     padding: 0 15px;
@@ -38,6 +39,13 @@
     width: 28%;
     text-align: center;
     display: flex;
+=======
+
+@media (max-width:480px){ /*celular*/
+.navegation {
+    padding: 0px;
+    height:auto;
+>>>>>>> 1c3f22185786e76a30114ae608f1b4d3ab4ef5dc
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -98,3 +106,12 @@
     padding: 50px 0 0 85px;
   }
 }
+<<<<<<< HEAD
+=======
+}
+
+
+@media (max-width:1024px){} /*notebook*/
+
+@media (max-width:800px){} /*tablets*/
+>>>>>>> 1c3f22185786e76a30114ae608f1b4d3ab4ef5dc
