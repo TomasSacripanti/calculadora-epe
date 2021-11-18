@@ -1,5 +1,5 @@
-@media (max-width:480px){ /*celular*/
 
+@media (max-width:480px){ /*celular*/
 .navegation {
     padding: 0px;
     height:auto;
@@ -25,7 +25,8 @@
 .form {
     width: 70%;
 }
-} 
+}
+
 
 @media (max-width:1024px){} /*notebook*/
 

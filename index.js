@@ -51,7 +51,7 @@ function calculateElectricityCost(user, address, kilowattsAmount) {
             break;
     }
     let servicePrice = BASE_COST + (kilowattsAmount * costKWH);
-    let ivaCost = servicePrice * iva;
+    let ivaCost = (kilowattsAmount * costKWH) * iva;
     let totalPrice = servicePrice + ivaCost;
     return [servicePrice, ivaCost, totalPrice];
 }
